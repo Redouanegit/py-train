@@ -30,6 +30,7 @@ print(id(z))
 '''
 
 x=[6,45,9,1,76,34]
+print(x[3])
 #bool(x)
 #dir(x)
 '''

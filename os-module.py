@@ -21,7 +21,7 @@ if fol_name not in os.listdir(bin_path):
     os.mkdir(fol_name)
 else:
     print("already exist")
-conf_usr=input(' are u sure {fol_name} wil be deleted yes or no: ')
+conf_usr=input(f'are u sure {fol_name} will be deleted !! yes or no ?: ')
 if conf_usr=='yes':
     #shutil.copytree(fol_name, 'foo', dirs_exist_ok=True)
     os.rmdir(fol_name)
